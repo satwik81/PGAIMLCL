@@ -7,4 +7,9 @@ def home_page():
 
 @app.get("/data/")
 def get_data():
-    return {"data": "This is sample data from the API"}
+    return {
+        "ID": 1,
+        'Name': 'Sivamani',
+        "Email": 'sivamani@gmail.com',
+        "Phone": '9848032919'
+    }
