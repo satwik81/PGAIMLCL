@@ -10,4 +10,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8000
 
-CMD ["python", "-m" "uvicorn", "api_backend:app", "--reload"]
+CMD ["python", "-m", "uvicorn", "api_backend:app", "--reload"]
